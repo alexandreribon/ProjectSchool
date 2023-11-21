@@ -7,32 +7,41 @@
     </a>
     <div class="content-center">
       <button mat-button [matMenuTriggerFor]="beforeMenu">
-        <span>Menu</span>
-        <mat-icon>more_vert</mat-icon>
+        <div class="menu">
+          <span>Menu</span>
+          <mat-icon>more_vert</mat-icon>
+        </div>
       </button>
       <mat-menu #beforeMenu="matMenu">
-        <a *ngFor="let item of itensMenu" mat-menu-item
-           [routerLink]="item.link" routerLinkActive="active">
-          <mat-icon fontSet="fa" [fontIcon]="item.icon"></mat-icon>
-          <span>{{item.label}}</span>
-        </a>
+        <div class="menu-item">
+          <a *ngFor="let item of itensMenu" mat-menu-item
+             [routerLink]="item.link" routerLinkActive="active">
+            <mat-icon fontSet="fa" [fontIcon]="item.icon"></mat-icon>
+            <span>{{item.label}}</span>
+          </a>
+        </div>
+
       </mat-menu>
       <div>
         <button mat-button [matMenuTriggerFor]="menu">
-          <mat-icon class="space-right-icon">account_circle</mat-icon>
-          <span>Alexandre</span>
-          <mat-icon>keyboard_arrow_down</mat-icon>
+          <div class="menu">
+            <mat-icon class="space-right-icon">account_circle</mat-icon>
+            <span>Alexandre</span>
+            <mat-icon>keyboard_arrow_down</mat-icon>
+          </div>
         </button>
         <mat-menu #menu="matMenu">
-          <a routerLink="/users/myProfile" mat-menu-item>
-            <mat-icon>person</mat-icon>
-            <span>Perfil</span>
-          </a>
-          <mat-divider></mat-divider>
-          <a routerLink="#" mat-menu-item>
-            <mat-icon>logout</mat-icon>
-            <span>Sair</span>
-          </a>
+          <div class="menu-item-2">
+            <a routerLink="/users/myProfile" mat-menu-item>
+              <mat-icon>person</mat-icon>
+              <span>Perfil</span>
+            </a>
+            <mat-divider></mat-divider>
+            <a routerLink="#" mat-menu-item>
+              <mat-icon>logout</mat-icon>
+              <span>Sair</span>
+            </a>
+          </div>
         </mat-menu>
       </div>
     </div>
