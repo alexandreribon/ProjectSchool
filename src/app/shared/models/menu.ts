@@ -8,7 +8,7 @@ export const menuItens: MenuItem[] = [
   },
   {
     link: '/courses',
-    icon: 'fa-garduation-cap',
+    icon: 'fa-graduation-cap',
     label: 'Cursos'
   },
   {

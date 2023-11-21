@@ -8,7 +8,21 @@ import { Component, Input } from '@angular/core';
 export class ToolbarTitleComponent {
 
   @Input() title: string = "";
-  @Input() icon: string = "";
+
+  iconFa = '';
+  iconMat = '';
+  fontSet = '';
+
+  @Input()
+  set icon(value: string) {
+    if (value.includes('fa-')) {
+      this.fontSet = 'fa';
+      this.iconFa = `icon-space-mat ${value}`
+    } else {
+      this.fontSet = '';
+      this.iconMat = value;
+    }
+  }
 
   constructor() {}
 
