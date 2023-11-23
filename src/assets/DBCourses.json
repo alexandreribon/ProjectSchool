@@ -154,7 +154,7 @@
       "description": "Domine os fundamentos da cibersegurança. (Tecnologia)"
     },
     {
-      "id": 19,
+      "id": 18,
       "name": "Técnicas Modernas de Escultura",
       "category": "Arte",
       "rating": 4.5,
@@ -163,7 +163,7 @@
       "description": "Explore técnicas modernas de escultura e arte. (Arte)"
     },
     {
-      "id": 18,
+      "id": 19,
       "name": "Arte Abstrata Moderna: Técnicas e Tendências",
       "category": "Arte",
       "rating": 4.5,
@@ -280,7 +280,7 @@
       "description": "Achieve mindfulness and manage stress effectively. (Saúde)"
     },
     {
-      "id": 31,
+      "id": 32,
       "name": "Mindfulness e Gerenciamento do Estresse",
       "category": "Saúde",
       "rating": 4.9,
@@ -289,7 +289,7 @@
       "description": "Alcance mindfulness e gerencie o estresse eficazmente. (Saúde)"
     },
     {
-      "id": 32,
+      "id": 33,
       "name": "Desenvolvimento Avançado de Aplicativos Móveis com Flutter",
       "category": "Tecnologia",
       "rating": 4.8,
@@ -298,7 +298,7 @@
       "description": "Domine o desenvolvimento avançado de aplicativos móveis com Flutter. (Tecnologia)"
     },
     {
-      "id": 33,
+      "id": 34,
       "name": "Ciência de Dados para Análise de Negócios",
       "category": "Tecnologia",
       "rating": 4.7,
@@ -307,7 +307,7 @@
       "description": "Aplique ciência de dados para análise de negócios eficaz. (Tecnologia)"
     },
     {
-      "id": 34,
+      "id": 35,
       "name": "Técnicas Modernas de Escultura",
       "category": "Arte",
       "rating": 4.5,
@@ -316,7 +316,7 @@
       "description": "Explore técnicas modernas de escultura e arte. (Arte)"
     },
     {
-      "id": 35,
+      "id": 36,
       "name": "Arte da Confeitaria Gourmet",
       "category": "Culinária",
       "rating": 4.9,
@@ -325,7 +325,7 @@
       "description": "Domine a arte da confeitaria gourmet. (Culinária)"
     },
     {
-      "id": 36,
+      "id": 37,
       "name": "Gestão Financeira Estratégica",
       "category": "Finanças",
       "rating": 4.8,
@@ -334,7 +334,7 @@
       "description": "Desenvolva habilidades de gestão financeira estratégica. (Finanças)"
     },
     {
-      "id": 37,
+      "id": 38,
       "name": "Psicologia Cognitiva Avançada",
       "category": "Psicologia",
       "rating": 4.7,
@@ -343,7 +343,7 @@
       "description": "Aprofunde-se na psicologia cognitiva avançada. (Psicologia)"
     },
     {
-      "id": 38,
+      "id": 39,
       "name": "Estratégia de Marketing Digital",
       "category": "Marketing",
       "rating": 4.6,
@@ -352,7 +352,7 @@
       "description": "Elabore estratégias eficazes de marketing digital. (Marketing)"
     },
     {
-      "id": 39,
+      "id": 40,
       "name": "Expedições de Fotografia de Vida Selvagem",
       "category": "Fotografia",
       "rating": 4.9,
@@ -361,7 +361,7 @@
       "description": "Capture a beleza da vida selvagem através da fotografia. (Fotografia)"
     },
     {
-      "id": 40,
+      "id": 41,
       "name": "Oficina de Escrita de Ficção Científica",
       "category": "Escrita",
       "rating": 4.8,
