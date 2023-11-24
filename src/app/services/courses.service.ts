@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { environment } from 'src/environments/environment';
@@ -13,8 +13,20 @@ export class CoursesService {
 
   constructor(private http: HttpClient) { }
 
-  public getAll() : Observable<Course[]> {
-    return this.http.get<Course[]>(`${this.baseURL}`);
+  public getAll(currentPage: number, pageSize: number,
+                category: string, search: string) : Observable<HttpResponse<any>> {
+
+    let url = `${this.baseURL}?_page=${currentPage}&_limit=${pageSize}`;
+
+    if (category) {
+      url = `${url}&category=${category}`
+    }
+
+    if (search) {
+      url = `${url}&q=${search}`
+    }
+
+    return this.http.get(url, {observe: 'response'});
   }
 
   public getById(id: number) : Observable<Course[]> {

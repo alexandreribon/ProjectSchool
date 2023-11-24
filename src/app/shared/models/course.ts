@@ -20,7 +20,7 @@ export enum Category {
   Musica = 'Música',
   CienciasAmbientais = 'Ciências Ambientais',
   Moda = 'Moda',
-  Comunicação = 'Comunicação',
+  Comunicacao = 'Comunicação',
   Filosofia = 'Filosofia',
   Saude = 'Saúde'
 }

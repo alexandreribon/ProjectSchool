@@ -1,3 +1,85 @@
+.form-field-category {
+  @media (min-width: 600px) {
+    padding-right: 10px;
+  }
+  margin-top: 10px;
+}
+
+.form-field-search {
+  margin-top: 10px;
+}
+
+mat-label {
+  font-weight: normal;
+  color: gray;
+}
+
+//---------------------CSS PAGINATION-----------------------------------------
+
+.paginator {
+  display: flex;
+  min-height: 60px;
+  justify-content: center;
+  align-items: center;
+  background-color: #b6c1ff;
+  padding-top: 0;
+}
+
+::ng-deep .mat-mdc-paginator-container {
+  min-height: 60px;
+  background-color: #b6c1ff;
+}
+
+::ng-deep .mat-mdc-paginator {
+  background: #7688ee;
+  color: rgb(255, 255, 255, 0.87);
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+::ng-deep .mat-mdc-paginator-page-size-label {
+  color: black;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+::ng-deep .mat-mdc-paginator-range-label {
+  color: black;
+  font-weight: 800;
+  font-size: 13px;
+}
+
+::ng-deep .mat-mdc-paginator-icon {
+  fill: rgb(228, 0, 0);
+}
+
+::ng-deep .mat-mdc-paginator-page-size-select {
+  width: 65px !important;
+}
+
+::ng-deep .mat-mdc-paginator .mat-mdc-form-field-flex {
+  min-height: 40px !important;
+  max-width: 35px !important;
+}
+
+::ng-deep .mat-mdc-paginator .mat-mdc-select-value {
+  color: black;
+  font-weight: 800;
+}
+
+::ng-deep .mat-mdc-select-arrow {
+  color: black;
+  font-weight: 800;
+}
+
+
+
+
+
+
+
+//--------------------------------------------------------------
+
 mat-card {
   margin-top: 10px;
   margin-bottom: 4px;
